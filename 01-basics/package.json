@@ -1,0 +1,13 @@
+{
+  "name": "01-basics",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node test/roman-numeral.spec.js",
+    "test:watch": "nodemon test/roman-numeral.spec.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

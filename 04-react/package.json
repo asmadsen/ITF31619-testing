@@ -1,0 +1,35 @@
+{
+  "name": "04-react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack-dev-server --config webpack.config.development.js --hot --mode development",
+    "build": "yarn clean & webpack --config webpack.config.production.js --mode production",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@hot-loader/react-dom": "^16.13.0",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@types/jest": "^26.0.14",
+    "babel-jest": "^26.5.2",
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.5.2",
+    "node-sass": "^4.14.1",
+    "react-hot-loader": "^4.13.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
